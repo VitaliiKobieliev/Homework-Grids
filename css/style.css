@@ -29,8 +29,8 @@
         "grid-column-3 grid-column-3 grid-column-4"
         "grid-column-5 grid-column-6 grid-column-6"
     ;
-
 }
+
 
 .grid-column-1 {
     grid-area: grid-column-1;
@@ -139,14 +139,12 @@
     display: grid;
     gap: 30px;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
      grid:
         "grid-column-13 grid-column-14 grid-column-15"
         "grid-column-16 grid-column-14 grid-column-19"
         "grid-column-17 grid-column-18 grid-column-19"
-        "grid-column-17 grid-column-20"
-        "grid-column-21 grid-column-22" 
+        "grid-column-17 grid-column-20 grid-column-20"
+        "grid-column-21 grid-column-21 grid-column-22" 
  
 
 }
